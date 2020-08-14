@@ -16,7 +16,7 @@ transfers<-read.table("transfers.txt",header = T,sep = ',',fileEncoding="UTF-8-B
 trips<-read.table("trips.txt",header = T,sep = ',',fileEncoding="UTF-8-BOM")
 
 
-########## Q3.1  ########
+########## Subpart 1  ########
 
 #JOIN VARIABLES TO FETCH ROUTE,TRIP,STOP DETAILS IN ONE DATAFRAME
 Dublin_Bus_Data <- routes %>% 
@@ -45,7 +45,7 @@ qplot(data = Num_trips_route,x=route_short_name,y=count,fill=route_short_name)+
   coord_flip()
 
 
-#######  Q3.2
+#######  Subpart 2 #########
 
 #Forward direction of Bus 15B
 forward_direction <- filter(Dublin_Bus_Data, route_short_name == "15B" & direction_id == 0)
