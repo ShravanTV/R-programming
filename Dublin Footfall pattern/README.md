@@ -12,6 +12,10 @@ A Line graph using ggplot with week number, value (sum of persons) is plotted fo
 
 • Persons entering to Capel Street on Sundays is low for the whole 52 weeks whereas persons entering to William street on Sundays were low till week 20 and later it slightly got increased.
 
+Output graph:
+
+![image](https://user-images.githubusercontent.com/25825690/90322134-4e266580-df48-11ea-9126-b5ad1a8495c2.png)
+
 
 
 <b>PART 2 <br>
@@ -25,3 +29,5 @@ And a graph using ggplot was plotted using the data Moore_Week_In and by passing
 <br>• Also, we can observe that there is a sudden increase in the persons entering the Moore street on all days in the weeks 49,50,51.
 <br>• Also, a sudden decrease of persons visiting around week 19 is seen on all the days.
 
+Output graph:
+![image](https://user-images.githubusercontent.com/25825690/90322141-5ed6db80-df48-11ea-9f32-eaa4c05d60d5.png)
